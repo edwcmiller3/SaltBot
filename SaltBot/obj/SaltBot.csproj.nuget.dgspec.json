@@ -43,6 +43,10 @@
             "DSharpPlus": {
               "target": "Package",
               "version": "[3.2.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [

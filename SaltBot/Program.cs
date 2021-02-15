@@ -1,4 +1,5 @@
 ﻿using DSharpPlus;
+using Newtonsoft.Json;
 using System.IO;
 using System.Threading.Tasks;
 
@@ -11,17 +12,22 @@ namespace SaltBot
             MainAsync().GetAwaiter().GetResult();
         }
 
-        public class AppToken
-        {
-            public string Token { get; set; }
-        }
         static async Task MainAsync()
         {
-            string token = File.ReadAllText(@"..\..\..\token.txt");
+            string json = "";
+            using (FileStream fs = File.OpenRead(@"..\..\..\token.json"))
+            {
+                using (StreamReader sr = new StreamReader(fs))
+                {
+                    json = await sr.ReadToEndAsync().ConfigureAwait(false);
+                }
+            }
+
+            ConfigJSON configJSON = JsonConvert.DeserializeObject<ConfigJSON>(json);
 
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = token,
+                Token = configJSON.Token,
                 TokenType = TokenType.Bot
             });
 
