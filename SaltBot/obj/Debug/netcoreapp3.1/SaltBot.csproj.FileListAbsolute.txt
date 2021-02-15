@@ -1,0 +1,16 @@
+C:\Users\Edward\source\repos\SaltBot\SaltBot\bin\Debug\netcoreapp3.1\SaltBot.exe
+C:\Users\Edward\source\repos\SaltBot\SaltBot\bin\Debug\netcoreapp3.1\SaltBot.deps.json
+C:\Users\Edward\source\repos\SaltBot\SaltBot\bin\Debug\netcoreapp3.1\SaltBot.runtimeconfig.json
+C:\Users\Edward\source\repos\SaltBot\SaltBot\bin\Debug\netcoreapp3.1\SaltBot.runtimeconfig.dev.json
+C:\Users\Edward\source\repos\SaltBot\SaltBot\bin\Debug\netcoreapp3.1\SaltBot.dll
+C:\Users\Edward\source\repos\SaltBot\SaltBot\bin\Debug\netcoreapp3.1\SaltBot.pdb
+C:\Users\Edward\source\repos\SaltBot\SaltBot\bin\Debug\netcoreapp3.1\DSharpPlus.dll
+C:\Users\Edward\source\repos\SaltBot\SaltBot\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Edward\source\repos\SaltBot\SaltBot\obj\Debug\netcoreapp3.1\SaltBot.csprojAssemblyReference.cache
+C:\Users\Edward\source\repos\SaltBot\SaltBot\obj\Debug\netcoreapp3.1\SaltBot.AssemblyInfoInputs.cache
+C:\Users\Edward\source\repos\SaltBot\SaltBot\obj\Debug\netcoreapp3.1\SaltBot.AssemblyInfo.cs
+C:\Users\Edward\source\repos\SaltBot\SaltBot\obj\Debug\netcoreapp3.1\SaltBot.csproj.CoreCompileInputs.cache
+C:\Users\Edward\source\repos\SaltBot\SaltBot\obj\Debug\netcoreapp3.1\SaltBot.csproj.CopyComplete
+C:\Users\Edward\source\repos\SaltBot\SaltBot\obj\Debug\netcoreapp3.1\SaltBot.dll
+C:\Users\Edward\source\repos\SaltBot\SaltBot\obj\Debug\netcoreapp3.1\SaltBot.pdb
+C:\Users\Edward\source\repos\SaltBot\SaltBot\obj\Debug\netcoreapp3.1\SaltBot.genruntimeconfig.cache
