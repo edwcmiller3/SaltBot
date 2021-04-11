@@ -1,7 +1,9 @@
 ﻿using DSharpPlus;
+using DSharpPlus.CommandsNext;
 using Newtonsoft.Json;
 using System.IO;
 using System.Threading.Tasks;
+using SaltBot.Commands;
 
 namespace SaltBot
 {
@@ -15,7 +17,7 @@ namespace SaltBot
         static async Task MainAsync()
         {
             string json = "";
-            using (FileStream fs = File.OpenRead(@"..\..\..\token.json"))
+            using (FileStream fs = File.OpenRead(@"..\..\..\config.json"))
             {
                 using (StreamReader sr = new StreamReader(fs))
                 {
@@ -31,11 +33,12 @@ namespace SaltBot
                 TokenType = TokenType.Bot
             });
 
-            discord.MessageCreated += async e =>
+            var commands = discord.UseCommandsNext(new CommandsNextConfiguration()
             {
-                if (e.Message.Content.ToLower().StartsWith("ping"))
-                    await e.Message.RespondAsync("pong!");
-            };
+                StringPrefix = configJSON.Prefix
+            });
+
+            commands.RegisterCommands<Command1>();
 
             await discord.ConnectAsync();
             await Task.Delay(-1);

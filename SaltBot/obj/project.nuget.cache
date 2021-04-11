@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PdfC/bh9TulY8PTZKLrAiNMEOgVvc3buuPTJ2VCvAzmmgEQ3cvwxB4TDBSxSGCE+2h82r3ausedV4rJ+BFI4fA==",
+  "dgSpecHash": "VH0f3YaaAk/J6fI6cUiouwxwLR7JLgo/oYOn4C5sRURPGnqGDP8Oiy1oSaZgvDycYzjNGjLhCIFnLwiu5FWtWQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Edward\\source\\repos\\SaltBot\\SaltBot\\SaltBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Edward\\.nuget\\packages\\dsharpplus\\3.2.3\\dsharpplus.3.2.3.nupkg.sha512",
+    "C:\\Users\\Edward\\.nuget\\packages\\dsharpplus.commandsnext\\3.2.3\\dsharpplus.commandsnext.3.2.3.nupkg.sha512",
     "C:\\Users\\Edward\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Edward\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Edward\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
